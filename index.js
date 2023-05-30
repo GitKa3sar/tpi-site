@@ -10,10 +10,5 @@ form.addEventListener("submit" , (e) => {
 })
 
 /**
- * YOOOOOOOOOOOOOOO
- * OOOOOOOOOOOOOOOOO
- * 
- * OOOOOOOOOOOOOOO
- * 
- * OOOOOOOOOO
+ * PUZZI!!!
  */
