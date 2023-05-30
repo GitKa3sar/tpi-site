@@ -1,21 +1,20 @@
-
-body{
-	background-color: white;
+body {
+    background-color: white;
 }
 
-h1{
+h1 {
     font-size: 40px;
 }
 
-h2{
+h2 {
     font-size: 30px;
 }
 
-p{
+p {
     font-size: 22px;
 }
 
-div.btns{
+div.btns {
     font-size: 20px;
 }
 
@@ -30,10 +29,10 @@ button {
     font-size: 1.2em;
     font-weight: 550;
     font-family: 'Montserrat', sans-serif;
-  }
-  
-  button:hover {
+}
+
+button:hover {
     background: #315cfd;
     color: white;
     font-size: 1.5em;
-  }
+}
