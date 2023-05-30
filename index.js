@@ -10,5 +10,5 @@ form.addEventListener("submit" , (e) => {
 })
 
 /**
- * PUZZI!!!
+ * !PUZZI
  */
