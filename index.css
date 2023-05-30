@@ -1,38 +1,75 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
 body {
-    background-color: white;
+    background-color: #a3a3a3;
 }
 
-h1 {
-    font-size: 40px;
+header {
+    text-align: center;
 }
 
-h2 {
-    font-size: 30px;
+.form {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
 }
 
-p {
-    font-size: 22px;
+form {
+    width: 100%;
 }
 
-div.btns {
-    font-size: 20px;
+.question, .submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    width: 100%;
+    margin: 5rem 0;
 }
 
-button {
-    width: 150px;
-    height: 60px;
-    border: 3px solid #315cfd;
-    border-radius: 45px;
-    transition: all 0.3s;
-    cursor: pointer;
-    background: white;
-    font-size: 1.2em;
-    font-weight: 550;
-    font-family: 'Montserrat', sans-serif;
+input[type="radio"] {
+    display: none;
 }
 
-button:hover {
-    background: #315cfd;
-    color: white;
-    font-size: 1.5em;
+input[type="radio"]+label {
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+    padding: 2.5px 7px;
+    margin: 0 5px;
+}
+
+input[type="radio"]:checked + label {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #3a3a3a;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    margin: 5px 0 0 0;
+}
+
+#btn_sub {
+    width: 100px;
+    height: 30px;
+    margin: auto;
+    background-color: #a3a3a3;
+    border: 1px solid #3a3a3a;
+    border-radius: 5px;
+}
+
+#btn_sub:active {
+    background-color: #3a3a3a;
+    border: 1px solid #a3a3a3;
+    color: #ffffff;
+    border-radius: 5px;
 }
