@@ -12,7 +12,7 @@ form.addEventListener("submit", (e) => {
 
   answers.forEach((element) => {
     console.log(element.name + " " + element.value);
-    score += element.value;
+    score += Number(element.value);
 
   });
   console.log(score);
