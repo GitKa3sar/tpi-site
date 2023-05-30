@@ -16,4 +16,5 @@ form.addEventListener("submit", (e) => {
 
   });
   console.log(score);
+  window.location.href = "./result.html?score="+score
 });
